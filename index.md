@@ -5,7 +5,7 @@ title: Welcome
 
 I'm a second year graduate student of Computer Science at Georgia Tech who is interested in Networked and Distributed Systems. 
 
-My <strong>[resume](/resume.pdf)</strong>, academics and such biographical paraphernalia can be found at <strong>[/bio](/acad)</strong>.
+My <strong>[resume](/resume.pdf)</strong>, academics and such biographical paraphernalia can be found at <strong>[/bio](/bio)</strong>.
 
 I also like to call myself a storyteller of sorts. Blog, photography page and some music can be found at <strong>[/dabble](/dabble)</strong>.
 
