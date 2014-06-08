@@ -1,0 +1,23 @@
+title:            Sriram Padmanabhan
+description:      A collection of links masquerading as a home page.
+url:              # Site url.
+signoff:          Sriram Padmanabhan
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name:         home
+    url:          /index.html
+  - name:         acad
+    url:          /acad
+  - name:         code
+    url:          /code
+  - name:         dabble
+    url:          /dabble
+pygments:         true
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
