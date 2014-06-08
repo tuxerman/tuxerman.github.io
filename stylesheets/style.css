@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400);
 
 h1, h2, h3, h4, h5, strong, b {
@@ -8,9 +8,9 @@ html, body {
   height: 100%; }
 
 body {
-  background: #E8E8E8;
-  color: #303030;
-  font-family: 'Open Sans', sans-serif;
+  background: #EFEFEF;
+  color: #333333;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -81,8 +81,8 @@ blockquote {
 
 header {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 28px;
-  font-weight: 400; 
+  font-size: 34px;
+  font-weight: 300; 
   text-transform: lowercase;
   text-align: center;
    }
@@ -104,7 +104,7 @@ footer {
   box-sizing: border-box;
   width: 100%;
   max-width: 700px;
-  background: #fff;
+  background: #F7F7F7;
   margin: 30px auto 20px;
   border-radius: 7px;
   border: 1px solid #eee;
@@ -117,7 +117,7 @@ footer {
   #container .block {
         font-family: 'Open Sans Condensed', sans-serif;
         font-style: light; 
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 300;     
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
@@ -265,7 +265,7 @@ section.post {
   section.post h1 {
     font-family: 'Open Sans Condensed', sans-serif;
      font-style: light; 
-     font-size: 20px;
+     font-size: 22px;
      font-weight: 300; 
     /*text-transform: lowercase;*/
     text-align: center;
@@ -284,7 +284,7 @@ section.post {
     border-top-right-radius: 3px; }
 
 section.post, section > p {
-  font-size: 14px;
+  font-size: 16px;
   text-align: justify;
   line-height: 1.5em; }
   section.post *, section > p * {
