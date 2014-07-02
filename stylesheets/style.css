@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
 
 h1, h2, h3, h4, h5, strong, b {
   font-weight: 600; }
@@ -85,6 +86,9 @@ header {
   font-weight: 300; 
   text-transform: lowercase;
   text-align: center;
+  letter-spacing: 4px;
+  color: 000000;
+  /*font-weight: bold;*/
    }
 
 footer {
@@ -116,9 +120,10 @@ footer {
     clear: both; }
   #container .block {
         font-family: 'Open Sans Condensed', sans-serif;
-        font-style: light; 
-        font-size: 22px;
-        font-weight: 300;     
+        font-style: bold; 
+        font-size: 18px;
+        font-weight: 300;
+        text-transform: uppercase;
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
     padding: 10px 10px 3px;
@@ -267,7 +272,8 @@ section.post {
      font-style: light; 
      font-size: 22px;
      font-weight: 300; 
-    /*text-transform: lowercase;*/
+    text-transform: uppercase;
+    color: #ADADAD;
     text-align: center;
     line-height: 1.5em;
     margin-bottom: 10px; }
