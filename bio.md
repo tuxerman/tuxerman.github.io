@@ -3,7 +3,7 @@ layout: page
 title: Bio
 ---
 
-My resume: [PDF, updated June 2014](/resume.pdf). 
+My resume: [PDF, updated June 2014](/files/SriramP.pdf). 
 
 <br/>**Education**
 
