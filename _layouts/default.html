@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ site.description }}">
+  <title>{{ site.title }}</title>
+  <meta name="author" content="Sriram Padmanabhan">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'> -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="section hero">
+    <div class="container">
+
+      <div class="row" style="position: relative;">
+        <div class="two-thirds column">
+          <h3 class="hero-heading hero-themed">Sriram Padmanabhan</h3>
+          <h4 class="hero-heading">Non-ninja engineer and bestower of unsolicited product opinions.</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="one-third column">&nbsp;</div>
+        <div class="two-thirds column">
+          <p class="section-description punchline">
+          Lorem ipsum dimsum ghumsum.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns" style="text-align: center;">
+        <div id="nav-buttons">
+        {% for page in site.pages %}
+        {% if page.include-in-home == true %} 
+          &nbsp;
+          <a class="button button" href="#{{ page.link-id }}">{{ page.title }}</a>
+          &nbsp;
+        {% endif %}
+        {% endfor %}
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% for page in site.pages %}
+{% if page.include-in-home == true %}  
+<div id="{{ page.link-id }}" class="section page-section">
+  <div class="container">
+    <div class="row">
+      <div class="one-third column">
+        <h3 class="page-section-heading">{{ page.title }}</h3>
+      </div>
+      <div class="two-thirds column">
+        <p class="page-section-description">
+        {{ page.content }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

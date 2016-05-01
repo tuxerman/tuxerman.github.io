@@ -1,6 +1,5 @@
-tuxerman.github.io
-==================
+This is as Jekyll theme built to make single page websites, articles, or literary masterpieces readable anywhere.
 
-Sriram Padmanabhan | Github
+### [Demo and Documentation](https://adueck.github.io/good-clean-read)
 
-A clean, minimal and responsive personal site.
+Built on top of <a href="http://chibicode.github.io/solo">Solo</a>, by [Shu Uesugi](https://github.com/chibicode)

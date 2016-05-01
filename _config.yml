@@ -1,23 +1,14 @@
-title:            Sriram Padmanabhan
-description:      A collection of links masquerading as a home page.
-url:              # Site url.
-signoff:          Sriram Padmanabhan
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+# Site settings
+title: Sriram Padmanabhan
+first-name: Sriram
+last-name: Padmanabhan
+description: A responsive template for publishing single-page websites, articles that are easy on the eyes
+url: "http://127.0.0.1:4000"
+baseurl: ""
 
-links:
-  - name:         home
-    url:          /index.html
-  - name:         bio
-    url:          /bio
-  - name:         code
-    url:          /code
-  - name:         dabble
-    url:          /dabble
-pygments:         true
-permalink:        pretty
-markdown:         redcarpet
-redcarpet:
-  extensions:
-    - smart
+font-awesome-include: true # make this false if you don't need font-awesome
+
+# Build settings
+markdown: kramdown
+
+exclude: ["README.md"]
