@@ -1,0 +1,135 @@
+/* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500);
+
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+/* Nav buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#nav-buttons {
+  margin-top: 3rem;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Page-Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-section {
+  background-color: #fff;
+  background-size: cover;
+  color: #222;
+  /*font-weight: 300;*/
+  padding-bottom: 5rem;
+  /*padding: 8rem 0 7rem;*/
+  text-align: left;
+}
+.page-section-heading{
+  font-weight: 300;
+  color: #F29105;
+}
+.page-section-heading,
+.page-section-description {
+  margin-bottom: 1.2rem;
+}
+
+#about {
+  /*background-color: #36454F;*/
+  background-color: #f3f3f3;
+}
+
+#professional {
+  background-color: #36454F;
+  /*background-color: #555;*/
+  color: #eee;
+}
+
+
+#dabble {
+  /*background-color: #722F37;*/
+  background-color: #f7f7f7;
+}
+
+#contact {
+  background-color: #36454F;
+  /*background-color: #555;*/
+  color: #eee;
+}
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero-themed {
+  color: #F29105;
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 12rem 0 11rem;
+  }
+  .hero {
+    padding-bottom: 12rem;
+    text-align: left;
+    min-height: 200px;
+  }
+  .hero-heading-name {
+    font-size: 2.6rem;
+  }
+  .hero-heading-tag {
+    font-size: 2.0rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .hero {
+    height: 190px;
+  }
+  .hero-heading-name {
+    font-size: 3.0rem;
+  }
+  .hero-heading-tag {
+    font-size: 2.4rem;
+  }
+  .section {
+    padding: 14rem 0 15rem;
+  }
+  .hero {
+    padding: 16rem 0 14rem;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 20rem 0 19rem;
+  }
+  .hero {
+    padding: 22rem 0;
+  }
+  .hero-heading-name {
+    font-size: 3.4rem;
+  }
+  .hero-heading-tag {
+    font-size: 2.8rem;
+  }
+}

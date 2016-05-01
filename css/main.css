@@ -70,49 +70,10 @@
   color: #eee;
 }
 
-/* Hero
+/* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero-themed {
   color: #F29105;
-}
-
-/* Values
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.values {
-  background-color: #36454F;
-  background-size: cover;
-  color: #fff;
-  padding-bottom: 5rem;
-}
-.value-multiplier {
-  margin-bottom: .5rem;
-  color: #11DFC7;
-}
-.value-heading {
-  margin-bottom: .3rem;
-}
-.value-description {
-  text-align: left;
-  opacity: .8;
-  font-weight: 300;
-}
-
-/* Help
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.get-help {
-  border-bottom: 1px solid #ddd;
-}
-
-/* Categories
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.categories {
-  /*background-image: url('../images/values-bg.jpg');*/
-  background-color: #FF8243;
-  background-size: cover;
-  color: #fff;
-}
-.categories .section-description { 
-  margin-bottom: 4rem;
 }
 
 /* Bigger than 550 */
@@ -125,23 +86,11 @@
     text-align: left;
     min-height: 200px;
   }
-  .phone {
-    position: absolute;
-    top: -7rem;
-    right: 3rem;
-    max-height: 362px;
-    z-index: 3;
+  .hero-heading-name {
+    font-size: 2.6rem;
   }
-  .phone + .phone {
-    top: -6rem;
-    display: block;
-    max-width: 73.8%;
-    right: 0;
-    z-index: 2;
-    max-height: 338px;
-  }
-  .hero-heading {
-    font-size: 2.4rem;
+  .hero-heading-tag {
+    font-size: 2.0rem;
   }
 }
 
@@ -150,8 +99,11 @@
   .hero {
     height: 190px;
   }
-  .hero-heading {
-    font-size: 2.6rem;
+  .hero-heading-name {
+    font-size: 3.0rem;
+  }
+  .hero-heading-tag {
+    font-size: 2.4rem;
   }
   .section {
     padding: 14rem 0 15rem;
@@ -164,18 +116,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .phone {
-    top: -14rem;
-    right: 5rem;
-    max-height: 510px;
-  }
-  .phone + .phone {
-    top: -12rem;
-    max-height: 472px;
-  }
-  .categories {
-    padding: 15rem 0 8rem;
-  }
 }
 
 /* Bigger than 1000 */
@@ -186,15 +126,10 @@
   .hero {
     padding: 22rem 0;
   }
-  .hero-heading {
-    font-size: 3.0rem;
+  .hero-heading-name {
+    font-size: 3.4rem;
   }
-  .phone {
-    top: -16rem;
-    max-height: 615px;
-  }
-  .phone + .phone {
-    top: -14rem;
-    max-height: 570px;
+  .hero-heading-tag {
+    font-size: 2.8rem;
   }
 }
