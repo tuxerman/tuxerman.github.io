@@ -21,7 +21,7 @@ The other side to storytelling comes in the form of [photography](http://tuxerma
 ~~**2015**: I love the violin. Man I know nothing about wind instruments. Also, the Irish [whistle](https://en.wikipedia.org/wiki/Tin_whistle) sounds beautiful.~~ <br/>
 ~~**2016**: I absolutely love the damn whistle. Oh look, the [bansuri](https://en.wikipedia.org/wiki/Bansuri) is played with the same finger-placement!~~
 
-Scatterbrained and occasionally in the lookout for a more expressive medium.
+Scatterbrained and occasionally on the lookout for a more expressive medium.
 
 ##### Design, Products and Engineering
 For a while, it was a case of merely having strong opinions about the above. This site is one experiment where the itch was actually scratched. Moving my old blog from blogger to a [newer](http://tuxerman.github.io/anotherbloggerbloke), github-pages hosted one is another.
